@@ -1,0 +1,1 @@
+When we have a hashTable with collisions the BigO complexity is O(n/k) where k is the size of tha hash table.

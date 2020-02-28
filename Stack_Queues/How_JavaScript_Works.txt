@@ -1,0 +1,32 @@
+javaScript is a single threading language that can be non-blocking(asynchronous).
+multi-thread scenarios can cause deadlocks.
+
+javaScript Engine -> Each browser implements its own -> In Chrome is V8 has Memory Heap and Stack;
+Engine -> Memory Heap + Call Stack;
+
+const a = 1 -> Memory Heap;
+
+Memory Leak happens when you have memory Usage in the heap that is not being used in the program; 
+Imagine that we are creating new variables and we are not using them; that is Memory Leak;
+Global variables are bad because if we don't use them we take all the Memory Heap space without purpose;
+
+//call stack -> This is the order of execusion;
+console.log('1');
+console.log('2');
+console.log('3');
+
+Synchronous you call the teacher and wait until he answer the phone;
+Asynchronous you send a text and go do your stuff;
+
+//CallStack
+
+//Web Api
+
+//MicroJob or Job Queue -> then -> CallBack Queue
+   Example of addEventListener/which is a CallBack Queue;
+   element.addEventListener('click', () => {
+      console.log('click')
+})
+
+
+//Event Loop

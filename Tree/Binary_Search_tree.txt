@@ -1,0 +1,16 @@
+level 0: 2^0 = 1;
+level 1: 2^1 = 2;
+level 2: 2^2 = 4;
+level 3: 2^3 = 8;
+
+Balanced; BST;
+
+Search: O(logN)
+Insert: O(logN)
+Delete: O(logN)
+
+Unbalanced; BST;
+
+Search: O(n)
+Insert: O(n)
+Delete: O(n)
