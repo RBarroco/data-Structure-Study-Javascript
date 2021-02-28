@@ -1,3 +1,4 @@
+//Queue linkedList;
 class Queue {
   constructor() {
     this.first = null;

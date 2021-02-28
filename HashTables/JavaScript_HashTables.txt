@@ -1,2 +1,0 @@
-const a = new Map()  is a HashTable where the Key can be even a data type like function.
-const b = new Sets() it only hold the Keys;

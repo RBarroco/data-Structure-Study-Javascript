@@ -1,3 +1,4 @@
+//Queue Using Stack;
 class Queue {
   constructor() {
     this.last = null;
@@ -35,17 +36,8 @@ class Queue {
       this.length--;
       return lastValue;
     }
-    //  let i = 1;
-    //  let currentNode = this.first;
-    //  while (i !== this.length - 1) {
-    //    currentNode = currentNode.next;
-    //    i++;
-    //  }
     const holdingPointer = this.first.value;
     this.first = this.first.next;
-    //  const holdingPointer = currentNode.next;
-    //  currentNode.next = null;
-    //  this.last = currentNode;
     this.length--;
     return holdingPointer;
   }
